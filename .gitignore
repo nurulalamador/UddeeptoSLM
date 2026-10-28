@@ -1,0 +1,18 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Training and model artifacts
+/outputs/
+/smollm2-career-lora-final/
+/smollm2-career-merged/
+
+# Local editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
